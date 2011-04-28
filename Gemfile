@@ -26,11 +26,7 @@ group :development, :test, :staging, :production do
   gem "validates_url_format_of", "0.1.0"
 end
 
-group :development, :test do 
-  gem 'silent-postgres', "0.0.7"
-end
-
-gem "pg", "0.8.0"
+gem "mysql"
 
 group :test do
   gem "cucumber-rails",     "0.3.2"
